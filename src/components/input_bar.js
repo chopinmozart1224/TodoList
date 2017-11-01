@@ -12,13 +12,11 @@ export default class InputBar extends Component {
   render() {
     return (
       <div className="container">
-       <header className="header">
-         <Edit newTodo
+          <Edit newTodo
               onSave={this.handleSave}
               placeholder="Enter anything" 
          />
-       </header>
-      </div>
+       </div>
     )
   }
 }

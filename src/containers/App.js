@@ -12,11 +12,7 @@ const App = ({todos, actions}) => (
     <ToDoShow todos={todos} actions={actions} />
   </div>
 )
-
-App.propTypes = {
-  todos: PropTypes.array.isRequired,
-  actions: PropTypes.object.isRequired
-}
+ 
 
 const mapStateToProps = state => ({
   todos: state.todos
